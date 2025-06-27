@@ -60,15 +60,17 @@ h1, h2 {
 }
 
 .problem-area {
-  background-image: url("/asuka888dh/images/nayamiDr.png");
+  background-image: url('../images/nayamiDr.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: lighten;
-  /*background-color: rgba(255, 255, 255, 0.85);*/
+  background-color: rgba(255,255,255,0.85);
   position: relative;
   padding: 4rem 1rem;
+  min-height: 300px;
 }
+
 
 .service-cards {
     display: flex;
