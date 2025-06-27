@@ -58,38 +58,14 @@ h1, h2 {
     margin-bottom: 0.8em;
     font-size: 1em;
 }
-.trouble {
-  background-image: url("images/nayamiDr.png");
+.problem-area {
+  background-image: url("/images/nayamiDr.png");
   background-size: cover;
   background-position: center;
-  padding: 4rem 1rem;
-  color: #fff;
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-color: rgba(255,255,255,0.85); /* 薄く白を上に重ねて読みやすく */
   position: relative;
-  text-align: center;
-}
-
-.trouble .overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* 半透明の黒背景 */
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 8px;
-}
-
-.trouble h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-}
-
-.trouble ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.trouble li {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
 }
 
 .service-cards {
