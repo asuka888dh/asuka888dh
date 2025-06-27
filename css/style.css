@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 .problem-area {
-  background-image: url('../images/nayamiDr.png');
+  background-image: url('images/nayamiDr.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
