@@ -67,6 +67,7 @@ h1, h2 {
   background-repeat: no-repeat;
   min-height: 300px;
   padding: 4rem 1rem;
+  z-index: 0;
 }
 
 /* ← 白い半透明のレイヤーで文字を読みやすく */
@@ -79,6 +80,7 @@ h1, h2 {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.6); /* ←ここで透け具合を調整 */
   z-index: 1;
+  pointer-events: none;
 }
 
 .problem-area > * {
