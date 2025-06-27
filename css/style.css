@@ -1,0 +1,108 @@
+"""
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', 'Inter', sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1.7;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.hero {
+    background: #e0f7fa;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem auto;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.section {
+    padding: 3rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section.light {
+    background: #f9fbfc;
+}
+
+.problem-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+}
+
+.problem-list li::before {
+    content: "❗";
+    color: #f28b82;
+    margin-right: 0.5em;
+}
+
+.problem-list li {
+    margin-bottom: 0.8em;
+    font-size: 1em;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    background: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: 0.8rem 1.4rem;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #0077cc;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn.line {
+    background: #00c300;
+}
+
+footer {
+    text-align: center;
+    background: #e0f7fa;
+    padding: 1rem;
+    font-size: 0.85rem;
+}
+"""
