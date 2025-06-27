@@ -1,4 +1,3 @@
-"""
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll('.card').forEach((el, i) => {
         el.style.opacity = 0;
@@ -10,4 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 100 * i);
     });
 });
-"""
+
+console.log("jsOK!!");
